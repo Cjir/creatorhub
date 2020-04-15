@@ -1,0 +1,135 @@
+body {
+  font-family: "Roboto", sans-serif; }
+  body h1, body h2 {
+    font-family: "Zilla Slab", serif; }
+  body h4, body h5, body h3 {
+    font-family: "Roboto", sans-serif; }
+  body .navbar {
+    background-color: #F9FAFC; }
+    body .navbar .main-nav .navbar-nav a {
+      color: #ff9b71;
+      font-size: .75em;
+      font-weight: 900;
+      letter-spacing: 0.15em; }
+    body .navbar .main-nav .navbar-nav a:link {
+      text-decoration: none; }
+    body .navbar .main-nav .navbar-nav a:hover {
+      color: #2d3047;
+      border-bottom: solid 0.125em #2d3047;
+      transition: .25s ease-in-out; }
+    body .navbar .marketplace-nav .navbar-nav a {
+      color: #ff9b71;
+      font-size: .75em;
+      font-weight: 900;
+      letter-spacing: 0.15em; }
+    body .navbar .marketplace-nav .navbar-nav a:link {
+      text-decoration: none; }
+    body .navbar .marketplace-nav .navbar-nav a:hover {
+      color: #2d3047;
+      font-size: .85em;
+      transition: .25s ease-in-out; }
+  body .post-it li a {
+    color: #2d3047;
+    font-size: .75em;
+    font-weight: 900;
+    letter-spacing: 0.15em; }
+  body .post-it li a:link {
+    text-decoration: none; }
+  body .post-it li a:hover {
+    color: #ff9b71;
+    text-decoration: underline;
+    transition: .25s ease-in-out; }
+  body div .blog-feed {
+    color: #ff9b71;
+    line-height: 1.25em; }
+    body div .blog-feed h3 {
+      color: #2d3047;
+      font-weight: 900;
+      letter-spacing: 0.15em; }
+  body div .blog-feed:hover {
+    color: #2d3047;
+    transition: .25s ease-in-out; }
+    body div .blog-feed:hover .card-title {
+      background-color: #ed217c;
+      color: #F9FAFC; }
+    body div .blog-feed:hover p {
+      text-decoration: underline; }
+    body div .blog-feed:hover a:link {
+      text-decoration: none; }
+  body .profile-div a {
+    color: #2d3047;
+    font-size: 0.7em;
+    font-weight: 900;
+    letter-spacing: 0.15em; }
+  body .profile-div a:link {
+    text-decoration: none; }
+  body .profile-div a:hover {
+    color: #ff9b71;
+    text-align: underline;
+    transition: .25s ease-in-out; }
+  body .profile-div card-body:hover {
+    background-color: #F9FAFC; }
+  body div .white-filler {
+    background-color: #F9FAFC;
+    padding: 2.5em;
+    border-radius: .75em; }
+  body div .white-space {
+    background-color: #F9FAFC;
+    padding: 1em; }
+  body div .market-place {
+    background-color: #F9FAFC;
+    transition: 2s ease-in-out; }
+    body div .market-place h2 {
+      text-align: center; }
+      body div .market-place h2 button {
+        text-decoration: none;
+        color: #F9FAFC;
+        font-style: "Roboto", sans-serif;
+        font-size: 0.5em; }
+      body div .market-place h2 button:link {
+        text-decoration: none; }
+      body div .market-place h2 button:hover {
+        color: #F9FAFC;
+        text-decoration: none;
+        text-shadow: 0.125em 0.125em #2d3047;
+        transition: .5s ease-in-out; }
+    body div .market-place .card-header {
+      background-color: #ed217c; }
+  body .brand-footer {
+    padding-top: 2.5em;
+    padding-bottom: 1.5em;
+    background-color: #F9FAFC; }
+    body .brand-footer div .credit-spanner {
+      font-size: 0.7em; }
+      body .brand-footer div .credit-spanner a:link {
+        text-decoration: underline; }
+      body .brand-footer div .credit-spanner a:hover {
+        color: black; }
+    body .brand-footer div ul li a {
+      font-weight: "Roboto", sans-serif;
+      font-size: 0.8em;
+      color: #00c6b4; }
+    body .brand-footer div ul li a:link {
+      text-decoration: none; }
+    body .brand-footer div ul li a:hover {
+      color: #2d3047; }
+    body .brand-footer div .app-link {
+      font-size: 0.7em; }
+      body .brand-footer div .app-link a {
+        color: #ff9b71; }
+      body .brand-footer div .app-link a:link {
+        text-decoration: none; }
+      body .brand-footer div .app-link a:hover {
+        color: #00c6b4; }
+      body .brand-footer div .app-link button {
+        color: #ff9b71;
+        background-color: #F9FAFC;
+        border: #ff9b71 solid 1px; }
+      body .brand-footer div .app-link button:link {
+        text-decoration: none; }
+      body .brand-footer div .app-link button:hover {
+        color: #00c6b4;
+        background-color: #F9FAFC;
+        border: #00c6b4 solid 1px; }
+  body div .modal-content input {
+    background-color: rgba(255, 255, 255, 0.7); }

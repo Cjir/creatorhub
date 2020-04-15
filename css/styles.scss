@@ -1,0 +1,246 @@
+$color-primary: #ff9b71;
+$color-secondary: #ed217c;
+$color-pale: #F9FAFC;
+$color-mid: #00c6b4;
+$color-dark: #2d3047;
+$color-transparent-white: rgba(255, 255, 255, 0.7);
+$color-teal: #17a2b8;
+$body-font: "Roboto", sans-serif;
+$header-font: "Zilla Slab", serif;
+$subheader-font: "Roboto", sans-serif;
+$font-medium: 900;
+$letter-space-medium: 0.15em;
+ 
+body {
+   font-family: $body-font;
+   // background-color: $color-mid;
+
+h1, h2{
+   font-family: $header-font;
+}
+
+h4, h5, h3 {
+   font-family: $subheader-font;
+}
+
+.navbar {
+   background-color: $color-pale;
+   .main-nav {
+         // navbar navigation css
+   .navbar-nav {
+      a{
+         color:$color-primary;
+         font-size: .75em;
+         font-weight: $font-medium;
+         letter-spacing: $letter-space-medium;
+      }
+      a:link {
+         text-decoration: none;
+      }
+      a:hover {
+         color: $color-dark;
+         border-bottom: solid 0.125em $color-dark;
+         transition: .25s ease-in-out;
+      }
+
+   }
+
+   }
+   // marketplace navigation
+   .marketplace-nav {
+      .navbar-nav {
+         a{
+            color:$color-primary;
+            font-size: .75em;
+            font-weight: $font-medium;
+            letter-spacing: $letter-space-medium;
+         }
+         a:link {
+            text-decoration: none;
+         }
+         a:hover {
+            color: $color-dark;
+            font-size: .85em;
+            transition: .25s ease-in-out;
+         }
+      }
+   }
+}
+
+// Your Post-It Update Card
+.post-it {
+      li {
+         a{
+            color:$color-dark;
+            font-size: .75em;
+            font-weight: $font-medium;
+            letter-spacing: $letter-space-medium;
+         }
+         a:link {
+            text-decoration: none;
+         }
+         a:hover {
+            color: $color-primary;
+            text-decoration: underline;
+            transition: .25s ease-in-out;
+         }
+      }
+}
+
+
+div {
+   .blog-feed {
+
+      color: $color-primary;
+      line-height: 1.25em;
+      h3 {
+         color: $color-dark;
+         font-weight: $font-medium;
+         letter-spacing: 0.15em;
+      }
+   }
+   .blog-feed:hover {
+      color: $color-dark;
+      transition: .25s ease-in-out;
+      .card-title {
+         background-color: $color-secondary;
+         color: $color-pale;
+      }
+      p {
+         text-decoration: underline
+      }
+      a:link {
+         text-decoration: none;
+         }
+   }
+
+}
+
+.profile-div {
+   a{
+      color:$color-dark;
+      font-size: 0.7em;
+      font-weight: $font-medium;
+      letter-spacing: $letter-space-medium;
+   }
+   a:link {
+      text-decoration: none;
+   }
+   a:hover {
+      color: $color-primary;
+      text-align: underline;
+      transition: .25s ease-in-out;
+   }
+   card-body:hover {
+      background-color: $color-pale;
+   }
+}
+
+div {
+   .white-filler{
+      background-color: $color-pale;
+      padding:2.5em;
+      border-radius: .75em;
+   }
+   .white-space{
+      background-color: $color-pale;
+      padding:1em;
+   }
+   .market-place {
+      background-color: $color-pale;
+      transition: 2s ease-in-out;
+
+      h2 {
+         text-align: center;
+         button {
+         text-decoration: none;
+         color: $color-pale;
+         font-style: $subheader-font;
+         font-size: 0.5em;
+         }
+         button:link {
+            text-decoration: none;
+         }
+         button:hover {
+            color: $color-pale;
+            text-decoration: none;
+            text-shadow: 0.125em 0.125em $color-dark;
+            transition: .5s ease-in-out;
+         }
+      }
+      .card-header {
+       background-color: $color-secondary;  
+      }
+   }
+}
+
+
+.brand-footer {
+   padding-top: 2.5em;
+   padding-bottom: 1.5em;
+   background-color: $color-pale;
+   div {
+      .credit-spanner{
+         font-size: 0.7em;
+         a:link {
+         text-decoration: underline;
+         }
+         a:hover {
+         color: black;
+         }
+      }
+      ul {
+         li{
+            a {
+               font-weight: $body-font;
+               font-size: 0.8em;
+               color: $color-mid;
+            }
+            a:link {
+               text-decoration: none;
+            }
+            a:hover {
+               color: $color-dark;
+            }
+         }
+
+      }
+      .app-link{
+         font-size: 0.7em;
+         a{
+            color: $color-primary;
+         }
+         a:link {
+         text-decoration: none;
+         }
+         a:hover {
+         color: $color-mid;
+         }
+         button {
+            color: $color-primary;
+            background-color: $color-pale;
+            border: $color-primary solid 1px;
+         }
+         button:link {
+            text-decoration: none;
+         }
+         button:hover {
+            color: $color-mid;
+            background-color: $color-pale;
+            border: $color-mid solid 1px;
+         }
+      }
+   }
+}
+
+// modal css
+
+   div {
+      .modal-content {
+         input {
+            background-color: $color-transparent-white;
+         }
+      }
+   }
+
+}
