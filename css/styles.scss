@@ -95,8 +95,12 @@ div {
       line-height: 1.25em;
       h3 {
          color: $color-dark;
+         font-size: 1.50em;
          font-weight: $font-medium;
          letter-spacing: 0.15em;
+      }
+      p {
+         font-size: 1em;
       }
    }
    .blog-feed:hover {
@@ -133,6 +137,14 @@ div {
    }
    card-body:hover {
       background-color: $color-pale;
+   }
+   h5 {
+      font-size: 1.05em;
+      letter-spacing: 0.17em;
+      font-weight: $font-medium;
+   }
+   span {
+      font-size: 0.75em;
    }
 }
 
