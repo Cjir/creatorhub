@@ -42,26 +42,24 @@ h4, h5, h3 {
          border-bottom: solid 0.125em $color-dark;
          transition: .25s ease-in-out;
       }
-
    }
-
    }
-   // marketplace navigation
-   .marketplace-nav {
+   // network navigation
+   .network-nav {
       .navbar-nav {
          a{
-            color:$color-primary;
+            color:$color-dark;
             font-size: .75em;
             font-weight: $font-medium;
             letter-spacing: $letter-space-medium;
          }
          a:link {
-            text-decoration: none;
+            text-decoration: underline;
          }
          a:hover {
-            color: $color-dark;
+            color: $color-primary;
             font-size: .85em;
-            transition: .25s ease-in-out;
+            transition: .15s ease-in-out;
          }
       }
    }

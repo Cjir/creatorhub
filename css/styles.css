@@ -17,17 +17,17 @@ body {
       color: #2d3047;
       border-bottom: solid 0.125em #2d3047;
       transition: .25s ease-in-out; }
-    body .navbar .marketplace-nav .navbar-nav a {
-      color: #ff9b71;
+    body .navbar .network-nav .navbar-nav a {
+      color: #2d3047;
       font-size: .75em;
       font-weight: 900;
       letter-spacing: 0.15em; }
-    body .navbar .marketplace-nav .navbar-nav a:link {
-      text-decoration: none; }
-    body .navbar .marketplace-nav .navbar-nav a:hover {
-      color: #2d3047;
+    body .navbar .network-nav .navbar-nav a:link {
+      text-decoration: underline; }
+    body .navbar .network-nav .navbar-nav a:hover {
+      color: #ff9b71;
       font-size: .85em;
-      transition: .25s ease-in-out; }
+      transition: .15s ease-in-out; }
   body .post-it li a {
     color: #2d3047;
     font-size: .75em;
